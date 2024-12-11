@@ -34,6 +34,7 @@ const App = () => {
         />
         <Navbar />
         <SearchBar />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/collection" element={<Collection />} />
@@ -45,6 +46,7 @@ const App = () => {
           <Route path="/place-order" element={<PlaceOrder />} />
           <Route path="/orders" element={<Orders />} />
         </Routes>
+
         <Footer />
       </div>
     </div>
